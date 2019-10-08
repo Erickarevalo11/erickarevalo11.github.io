@@ -6,64 +6,10 @@ td[id*="datos_"] {
     box-shadow: rgba(0,0,0,0.8) 1px 1px 10px;
     background-color: white;
 }
-#values_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #ssma_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #info_1_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #info_2_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #info_3_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #info_4_script{
-  display: inline-block;
-  margin: 0 auto;
-
-}, #info_5_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #cpe_1_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #cpe_2_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #cpe_3_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #comen_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #rep_1_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #rep_2_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #rep_3_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #rep_4_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #nop_T1_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #nop_T2_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #nop_T3_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #nop_TOT_script{
-  display: inline-block;
-  margin: 0 auto;
-}, #result_script {
+#values_script, #ssma_script, #info_1_script, #info_2_script, #info_3_script #info_4_script, #info_5_script, #cpe_1_script, #cpe_2_script, #cpe_3_script, #comen_script
+, #rep_1_script, #rep_2_script, #rep_3_script, #rep_4_script, #nop_T1_script, #nop_T2_script, #nop_T3_script, #nop_TOT_script, #result_script {
     display: none;
+     display: inline-block;
+  margin: 0 auto;
 }
+
