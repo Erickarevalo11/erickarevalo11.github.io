@@ -5,6 +5,9 @@ td[id*="datos_"] {
     border-radius: 20px;
     box-shadow: rgba(0,0,0,0.8) 1px 1px 10px;
     background-color: white;
+    text-align: center !important;
+     display: inline-block;
+  margin: 0 auto;
 }
 #values_script, #ssma_script, #info_1_script, #info_2_script, #info_3_script #info_4_script, #info_5_script, #cpe_1_script, #cpe_2_script, #cpe_3_script, #comen_script
 , #rep_1_script, #rep_2_script, #rep_3_script, #rep_4_script, #nop_T1_script, #nop_T2_script, #nop_T3_script, #nop_TOT_script, #result_script {
