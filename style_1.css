@@ -5,7 +5,7 @@ td[id*="datos_"] {
     border-radius: 20px;
     box-shadow: rgba(0,0,0,0.8) 1px 1px 10px;
     background-color: white;
-    text-align: center !important;
+     align: center !important;
      
 }
 #values_script, #ssma_script, #info_1_script, #info_2_script, #info_3_script #info_4_script, #info_5_script, #cpe_1_script, #cpe_2_script, #cpe_3_script, #comen_script
