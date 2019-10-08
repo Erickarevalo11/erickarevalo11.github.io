@@ -1,103 +1,11 @@
-#table_infoprod table,
-#table_infoprod table.google-visualization-table-table
 
-{
-    font: 10px/14px Roboto,sans-serif;
-    text-align: center;
-    width: 100%;
-    margin: 16px 0;
-    border-spacing: 0;
-    border-collapse: collapse;
-    border: 0;
-    border: 2px solid #FF6600; /* grosor y color de linea borde externo de tabla*/
-}
-
-#table_infoprod tr,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-head,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-even,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-odd
-
-{
-    border: 0;
-    border-top-width: 1px; /* Grosor de linea de filas*/
-    border-top-style: solid;
-}
-
-
-
-#table_infoprod table.google-visualization-table-table .google-visualization-table-th,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-td
-{
-    border: 0;
-    background: 0;
-
-}
-
-#table_infoprod th,
-
-{
-
-    font: 600 10px/14px Roboto,sans-serif;
-    /*
-    height: 48px;
-    padding: 8px;
-    */
-    padding-bottom: 4px;
-    /*vertical-align: middle;*/
-    color: black; /* Texto de Cabecera */
-}
-
-#table_infoprod th b,
-#table_infoprod th strong,
-#table_infoprod td b,
-#table_infoprod td strong
-
-{
-    font-weight: 500;
-}
-
-#table_infoprod td,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-td,
-{
-    /*padding: 7px 8px 8px;*/
-    color: black; /* Texto de datos*/
-    text-align: center;
-    width: 90px;
-}
-
-#table_infoprod td,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-td,
-{
-    /*vertical-align: top;*/
-    table-layout: fixed;
-    background: white; /* fondo filas (no cabecera)*/
-    text-align: center;
-    width: 90px;
-
-}
-
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-head,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-even,
-#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-odd,
-{
-    border-top-color: #FF6600; /*color linea superior de fila*/
-    background: linear-gradient(to right, red, orange);
-    text-align: center;
-
-}
-
-#table_infoprod .google-visualization-table-th,
-{
-  padding-bottom: 0px;
-
-}
 /*/+7///**/
 #table_com_4 table,
 #table_com_4 table.google-visualization-table-table
 
 {
     font: 10px/14px Roboto,sans-serif;
-    text-align: center;
+    text-align: center !important;
     width: 100%;
     margin: 16px 0;
     border-spacing: 0;
@@ -155,7 +63,7 @@
 {
     /*padding: 7px 8px 8px;*/
     color: black; /* Texto de datos*/
-    text-align: center;
+    text-align: center !important;
     width: 90px;
 }
 
@@ -175,7 +83,7 @@
 {
     border-top-color: #FF6600; /*color linea superior de fila*/
     background: linear-gradient(to right, red, orange);
-    text-align: center;
+    text-align: center !important;
 
 }
 
@@ -190,7 +98,7 @@
 
 {
     font: 10px/14px Roboto,sans-serif;
-    text-align: center;
+    text-align: center !important;
     width: 100%;
     margin: 16px 0;
     border-spacing: 0;
@@ -248,7 +156,7 @@
 {
     /*padding: 7px 8px 8px;*/
     color: black; /* Texto de datos*/
-    text-align: center;
+    text-align: center !important;
     width: 90px;
 }
 
@@ -258,7 +166,7 @@
     /*vertical-align: top;*/
     table-layout: auto;
     background: white; /* fondo filas (no cabecera)*/
-    text-align: center;
+    text-align: center !important;
      width: 90px;
 }
 
@@ -282,7 +190,7 @@
 
 {
     font: 10px/14px Roboto,sans-serif;
-    text-align: center;
+    text-align: center !important;
     width: 100%;
     margin: 16px 0;
     border-spacing: 0;
@@ -340,7 +248,7 @@
 {
     /*padding: 7px 8px 8px;*/
     color: black; /* Texto de datos*/
-    text-align: center;
+    text-align: center !important;
     width: 90px;
 }
 
@@ -468,6 +376,8 @@
 /* Template 3 */
 #table_ssma_1 table,
 #table_ssma_1 table.google-visualization-table-table,
+#table_inforpod table,
+#table_infoprod table.google-visualization-table-table,
 #table_ssma_2 table,
 #table_ssma_2 table.google-visualization-table-table
 {
@@ -484,6 +394,11 @@
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-even,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_infoprod tr,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-odd,
+
 #table_ssma_2 tr,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-even,
@@ -499,13 +414,17 @@
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-th,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-td,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-th,
-#table_ssma_2 table.google-visualization-table-table .google-visualization-table-td
+#table_ssma_2 table.google-visualization-table-table .google-visualization-table-td,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-th,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-td
 {
     border: 0;
     background: 0;
 }
 
 #table_ssma_1 th,
+
+#table_infoprod th,
 #table_ssma_2 th
 {
     font: 600 10px/14px Roboto,sans-serif;
@@ -522,6 +441,10 @@
 #table_ssma_1 th strong,
 #table_ssma_1 td b,
 #table_ssma_1 td strong,
+#table_infoprod th b,
+#table_infoprod th strong,
+#table_infoprod td b,
+#table_infoprod td strong,
 #table_ssma_2 th b,
 #table_ssma_2 th strong,
 #table_ssma_2 td b,
@@ -532,6 +455,8 @@
 
 #table_ssma_1 td,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-td,
+#table_infoprod td,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-td,
 #table_ssma_2 td,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-td
 {
@@ -543,6 +468,8 @@
 
 #table_ssma_1 td,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-td,
+#table_infoprod td,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-td,
 #table_ssma_2 td,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-td
 {
@@ -555,6 +482,9 @@
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-even,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_infoprod table.google-visualization-table-table .google-visualization-table-tr-odd,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-even,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-odd
@@ -565,6 +495,7 @@
 }
 
 #table_ssma_1 .google-visualization-table-th,
+#table_infoprod .google-visualization-table-th,
 #table_ssma_2 .google-visualization-table-th
 {
   padding-bottom: 0px;
