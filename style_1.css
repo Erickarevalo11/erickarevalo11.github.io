@@ -24,9 +24,7 @@ td[id*="datos_"] {
 }, #info_4_script{
   display: inline-block;
   margin: 0 auto;
-}{
-  display: inline-block;
-  margin: 0 auto;
+}
 }, #info_5_script{
   display: inline-block;
   margin: 0 auto;
@@ -69,4 +67,3 @@ td[id*="datos_"] {
 }, #result_script {
     display: none;
 }
-
