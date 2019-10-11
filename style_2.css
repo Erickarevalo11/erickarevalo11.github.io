@@ -5,7 +5,7 @@
 #table_com_7 table,
 #table_com_7 table.google-visualization-table-table,
 #table_com_8 table,
-#table_com_8 table.google-visualization-table-table,
+#table_com_8 table.google-visualization-table-table
 {
     font: 10px/14px Roboto,sans-serif;
     width: 100%;
@@ -30,7 +30,7 @@
 #table_com_8 tr,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-even,
-#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd
 {
     border: 0;
     border-top-width: 1px; /* Grosor de linea de filas*/
@@ -43,7 +43,7 @@
 #table_com_7 table.google-visualization-table-table .google-visualization-table-th,
 #table_com_7 table.google-visualization-table-table .google-visualization-table-td,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-th,
-#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td
 {
     border: 0;
     background: 0;
@@ -51,7 +51,7 @@
 #table_com_2 th,
 #table_com_3 th,
 #table_com_7 th,
-#table_com_8 th,
+#table_com_8 th
 {
     font: 600 10px/14px Roboto,sans-serif;
     /*
@@ -77,7 +77,7 @@
 #table_com_8 th b,
 #table_com_8 th strong,
 #table_com_8 td b,
-#table_com_8 td strong,
+#table_com_8 td strong
 {
     font-weight: 500;
 }
@@ -88,7 +88,7 @@
 #table_com_7 td,
 #table_com_7 table.google-visualization-table-table .google-visualization-table-td,
 #table_com_8 td,
-#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td
 {
     /*padding: 7px 8px 8px;*/
     color: black; /* Texto de datos*/
@@ -102,7 +102,7 @@
 #table_com_7 td,
 #table_com_7 table.google-visualization-table-table .google-visualization-table-td,
 #table_com_8 td,
-#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td
 {
     /*vertical-align: top;*/
     table-layout: fixed;
@@ -120,7 +120,7 @@
 #table_com_7 table.google-visualization-table-table .google-visualization-table-tr-odd,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-head,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-even,
-#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd
 {
     border-top-color: #FF6600; /*color linea superior de fila*/
     background: linear-gradient(to right, blue, white);
@@ -129,7 +129,7 @@
 #table_com_2 .google-visualization-table-th,
 #table_com_3 .google-visualization-table-th,
 #table_com_7 .google-visualization-table-th,
-#table_com_8 .google-visualization-table-th,
+#table_com_8 .google-visualization-table-th
 {
   padding-bottom: 0px;
 }
