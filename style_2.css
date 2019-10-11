@@ -123,7 +123,7 @@
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd,
 {
     border-top-color: #FF6600; /*color linea superior de fila*/
-    background: blue;
+    background: linear-gradient(to right, blue, white);
     text-align: center;
 }
 #table_com_2 .google-visualization-table-th,
