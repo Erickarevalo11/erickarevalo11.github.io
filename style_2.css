@@ -1,0 +1,135 @@
+#table_com_2 table,
+#table_com_2 table.google-visualization-table-table,
+#table_com_3 table,
+#table_com_3 table.google-visualization-table-table,
+#table_com_7 table,
+#table_com_7 table.google-visualization-table-table,
+#table_com_8 table,
+#table_com_8 table.google-visualization-table-table,
+{
+    font: 10px/14px Roboto,sans-serif;
+    width: 100%;
+    margin: 16px 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 0;
+    border: 2px solid #FF6600; /* grosor y color de linea borde externo de tabla*/
+}
+#table_com_2 tr,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_3 tr,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_7 tr,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_8 tr,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd,
+{
+    border: 0;
+    border-top-width: 1px; /* Grosor de linea de filas*/
+    border-top-style: solid;
+}
+#table_com_2 table.google-visualization-table-table .google-visualization-table-th,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-th,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-th,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-th,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+{
+    border: 0;
+    background: 0;
+}
+#table_com_2 th,
+#table_com_3 th,
+#table_com_7 th,
+#table_com_8 th,
+{
+    font: 600 10px/14px Roboto,sans-serif;
+    /*
+    height: 48px;
+    padding: 8px;
+    */
+    padding-bottom: 4px;
+    /*vertical-align: middle;*/
+    color: black; /* Texto de Cabecera */
+}
+#table_com_2 th b,
+#table_com_2 th strong,
+#table_com_2 td b,
+#table_com_2 td strong,
+#table_com_3 th b,
+#table_com_3 th strong,
+#table_com_3 td b,
+#table_com_3 td strong,
+#table_com_7 th b,
+#table_com_7 th strong,
+#table_com_7 td b,
+#table_com_7 td strong,
+#table_com_8 th b,
+#table_com_8 th strong,
+#table_com_8 td b,
+#table_com_8 td strong,
+{
+    font-weight: 500;
+}
+#table_com_2 td,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_3 td,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_7 td,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+{
+    /*padding: 7px 8px 8px;*/
+    color: black; /* Texto de datos*/
+    text-align: center;
+    width: 90px;
+}
+#table_com_2 td,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_3 td,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_7 td,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_8 td,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-td,
+{
+    /*vertical-align: top;*/
+    table-layout: fixed;
+    background: white; /* fondo filas (no cabecera)*/
+    width: 90px;
+}
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_2 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_3 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-tr-odd,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-head,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-even,
+#table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd,
+{
+    border-top-color: #FF6600; /*color linea superior de fila*/
+    background: blue;
+    text-align: center;
+}
+#table_com_2 .google-visualization-table-th,
+#table_com_3 .google-visualization-table-th,
+#table_com_7 .google-visualization-table-th,
+#table_com_8 .google-visualization-table-th,
+{
+  padding-bottom: 0px;
+}
