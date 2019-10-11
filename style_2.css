@@ -122,7 +122,7 @@
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-even,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-tr-odd
 {
-    border-top-color: #FF6600; /*color linea superior de fila*/
+    border-top-color: #0080FF; /*color linea superior de fila*/
     background: linear-gradient(to right, blue, white);
     text-align: center;
 }
