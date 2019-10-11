@@ -13,7 +13,7 @@
     border-spacing: 0;
     border-collapse: collapse;
     border: 0;
-    border: 2px solid #FF6600; /* grosor y color de linea borde externo de tabla*/
+    border: 2px solid #0080FF; /* grosor y color de linea borde externo de tabla*/
 }
 #table_com_2 tr,
 #table_com_2 table.google-visualization-table-table .google-visualization-table-tr-head,
