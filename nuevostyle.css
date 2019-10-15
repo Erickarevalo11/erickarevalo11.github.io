@@ -276,7 +276,7 @@
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-tr-odd
 {
     border-top-color: #FF6600; /*color linea superior de fila*/
-    background: linear-gradient(to right, red, orange);
+    background: #FF6600;
     text-align: center;
 }
 
