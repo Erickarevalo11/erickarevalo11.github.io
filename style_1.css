@@ -7,7 +7,7 @@ td[id*="datos_"] {
     background-color: white;
      
 }
-#values_script, #ssma_script, #info_1_script, #info_2_script, #info_3_script #info_4_script, #info_5_script, #cpe_1_script, #cpe_2_script, #cpe_3_script, #comen_script
+#values_script, #ssma_script, #info_1_script,#mes_script, #info_2_script, #info_3_script #info_4_script, #info_5_script, #cpe_1_script, #cpe_2_script, #cpe_3_script, #comen_script
 , #rep_1_script, #rep_2_script, #rep_3_script, #rep_4_script, #nop_T1_script, #nop_T2_script, #nop_T3_script, #nop_TOT_script, #result_script {
     display: none;
      
