@@ -136,10 +136,14 @@
 
 #table_com_7 th
 {
- font-family: Roboto,sans-serif;
- font-size: 16px; 
- padding-bottom: 4px;
- color: white;
+    font: 600 14px/18px Roboto,sans-serif;
+    /*
+    height: 48px;
+    padding: 8px;
+    */
+    padding-bottom: 4px;
+    /*vertical-align: middle;*/
+    color: white; /* Texto de Cabecera */
 }
 
 #table_ssma_1 th b,
