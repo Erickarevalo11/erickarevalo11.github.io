@@ -116,7 +116,7 @@
 #table_com_1 th,
 #table_com_2 th,
 #table_com_3 th,
-#table_com_7 th,
+
 #table_com_8 th,
 #table_com_4 th,
 #table_com_5 th,
@@ -132,6 +132,11 @@
     padding-bottom: 4px;
     /*vertical-align: middle;*/
     color: white; /* Texto de Cabecera */
+}
+
+#table_com_7 th
+{
+ font-size: 18px;   
 }
 
 #table_ssma_1 th b,
