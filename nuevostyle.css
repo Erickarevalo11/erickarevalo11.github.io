@@ -221,7 +221,7 @@
 }
 
 #table_com_7 td,
-#table_com_7 table.google-visualization-table-table .google-visualization-table-td,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-td
 {
     /*padding: 7px 8px 8px;*/
     color: red; /* Texto de datos*/
