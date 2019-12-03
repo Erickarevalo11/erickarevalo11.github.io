@@ -81,8 +81,6 @@
     border-top-style: solid;
 }
 
-
-
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-th,
 #table_ssma_1 table.google-visualization-table-table .google-visualization-table-td,
 #table_ssma_2 table.google-visualization-table-table .google-visualization-table-th,
@@ -93,8 +91,6 @@
 #table_com_2 table.google-visualization-table-table .google-visualization-table-td,
 #table_com_3 table.google-visualization-table-table .google-visualization-table-th,
 #table_com_3 table.google-visualization-table-table .google-visualization-table-td,
-#table_com_7 table.google-visualization-table-table .google-visualization-table-th,
-#table_com_7 table.google-visualization-table-table .google-visualization-table-td,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-th,
 #table_com_8 table.google-visualization-table-table .google-visualization-table-td,
 
@@ -110,6 +106,13 @@
 {
     border: 0;
     background: 0;
+}
+
+#table_com_7 table.google-visualization-table-table .google-visualization-table-th,
+#table_com_7 table.google-visualization-table-table .google-visualization-table-td
+{
+    border: 1 px;
+    background: 1 px;
 }
 
 #table_ssma_1 th,
