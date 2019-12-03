@@ -111,8 +111,8 @@
 #table_com_7 table.google-visualization-table-table .google-visualization-table-th,
 #table_com_7 table.google-visualization-table-table .google-visualization-table-td
 {
-    border: 1 px;
-    background: 1 px;
+    border: 2px solid #FF6600;
+  /*  background: 0; */
 }
 
 #table_ssma_1 th,
