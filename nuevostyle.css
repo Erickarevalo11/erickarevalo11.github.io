@@ -232,7 +232,8 @@
     font-size: 24px;
     width: 90px;
     font-weight: bold;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #table_ssma_1 td,
